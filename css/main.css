@@ -191,7 +191,7 @@ h1, h2
 }
 .img_caption_container
 {
-    height:200px;
+    height:20vw;
     display: flex;
     margin: 50px;
     border-radius: 200px;
