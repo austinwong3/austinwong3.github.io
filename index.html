@@ -24,24 +24,51 @@
                     <div id="text">
 
                     </div>
-                <script type="text/javascript">
-                    var i=1, text,temp;
-                    text = "Hi. I'm Austin.";
-                    document.getElementById("text").innerHTML = text.charAt(0)+"|";
-                    temp = "H|";
-                    function typing()
-                    {
-                        if(i<text.length)
+                    <script type="text/javascript">
+                        var i=0, text,temp,count;
+                        text = " Hi. I'm Austin.";
+                        count=true;
+
+                        function typing()
                         {
-                            temp = temp.substring(0,temp.length-1);
-                            temp += text.charAt(i) +"|";
-                            document.getElementById("text").innerHTML = temp;
-                            i++;
-                            setTimeout(typing,100);
+                        
+                            if(i<text.length)
+                            {
+                                if(i==0)
+                                {
+                                    temp ="";
+                                }
+                                else
+                                {
+                                    temp = temp.substring(0,temp.length-1);
+                                }
+                                temp += text.charAt(i) +"|";
+                                document.getElementById("text").innerHTML = temp;
+                                i++;
+                                setTimeout(typing,175);
+                            }
+                            else
+                            {
+                                if (count)
+                                {
+                                    temp = temp.substring(0,temp.length-1);
+                                    document.getElementById("text").innerHTML = temp;
+                                    count = false;
+                                    setTimeout(typing,175);
+                                }
+                                else
+                                {
+                                    temp +="|";
+                                    document.getElementById("text").innerHTML = temp;
+                                    count = true;
+                                    setTimeout(typing,175);
+
+                                }
+                            }
                         }
-                    }
-                    typing();
-                </script>
+                        typing();
+                        
+                    </script>
         </div>
         <!-- ABOUT ME PAGE -->
 		<div id="about" class="section">
