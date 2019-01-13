@@ -73,7 +73,7 @@ h1, h2
 #home
 {
     position: relative;
-    top: 5vw;
+    margin-top: 5vw;
 }
 #home img
 {
