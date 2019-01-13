@@ -282,7 +282,7 @@ h1, h2
     }
 	#nav-bar a
 	{
-	  	font-size: 15px;
+	  	font-size: 7vw;
     }
     #about h1
     {
@@ -300,7 +300,8 @@ h1, h2
 	}
 	.img_caption_container
 	{
-		margin: 0px;
+        align-items: center;
+        margin: auto;
     }
     
     .logos img
