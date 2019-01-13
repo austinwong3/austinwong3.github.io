@@ -304,6 +304,9 @@ h1, h2
         margin: auto;
     }
     
+    .logos{
+        width: 100px;
+    }
     .logos img
     {
         height: 75px;
