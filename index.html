@@ -2,28 +2,54 @@
 <html>
     <head>
             <title>Austin Wong</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		    <link rel="stylesheet" type="text/css" href="css/main.css" />
+		    <link rel=icon href="imgs/icon.png">
     </head>
     <body>
             <!-- NAV BAR -->
             <div id="nav-bar">
+                <a href="#home"><img src = "imgs/snapseed 5.jpg"></a>
                 <a href="#home">Home</a>
-                <a href="#about">About Me</a>
+                <a href="#about">About</a>
                 <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#connect">Connect</a>
             </div>
 
             <!-- HOME PAGE -->
-		<div id="home" class="section">
-                <img src="imgs/mzout.jpg" />
-                <h1 id="name"><br />Welcome to my Website</h1>
-                <a id="resume" target="_blank" href="files/resume.pdf">View Resume</a>
-            </div>
-            <!-- ABOUT ME PAGE -->
-            <div id="about" class="section">
+		    <div id="home" class="opener">
+                    <img src="imgs/mzout.jpg" />
+                    <div id="text">
+
+                    </div>
+                <script type="text/javascript">
+                    var i=1, text,temp;
+                    text = "Hi. I'm Austin.";
+                    document.getElementById("text").innerHTML = text.charAt(0)+"|";
+                    temp = "H|";
+                    function typing()
+                    {
+                        if(i<text.length)
+                        {
+                            temp = temp.substring(0,temp.length-1);
+                            temp += text.charAt(i) +"|";
+                            document.getElementById("text").innerHTML = temp;
+                            i++;
+                            setTimeout(typing,100);
+                        }
+                    }
+                    typing();
+                </script>
+        </div>
+        <!-- ABOUT ME PAGE -->
+		<div id="about" class="section">
                 <h1>About Me</h1>
                 <h2>My hobbies include:</h2>
                 <div class="content_container">
                     <div class="img_caption_container">
-                        <img src="imgs/snapseed 5.jpg" />
+                        <img src="imgs/pc.png" />
                         <h2>Coding</h2>
                     </div>
                     <div class="img_caption_container">
@@ -36,5 +62,5 @@
                     </div>
                 </div>
             </div>
-
+    
 </html>

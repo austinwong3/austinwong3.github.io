@@ -25,50 +25,69 @@ h1, h2
 	margin:auto;
 	padding: 0px 50px;
 }
+.opener
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 #nav-bar
 {
 	position: fixed;
 	display: flex;
-	background: #FCF7F8;
+    background: #FCF7F8;
+
     justify-content: center;
- 	top: 0;
-  	width: 100vw;
+     top: 0;
+     height: 5vw;
+      width: 100vw;
+      z-index: 2;
 }
 
+#nav-bar img
+{
+    height: 4.5vw;
+    width: 4.5vw;
+	border-radius: 300px;
+}
 #nav-bar a
 {
-  	display: inline-flex;
+    display: inline-flex;
+    align-items: center;
   	justify-content: center;
   	float:left;
   	color: black;
-  	padding: 14px;
-  	font-size: 20px;
-  	width: 33%;
+  	font-size: 1.39vw;
+  	width: 100%;
   	text-decoration: none;
-  	transition: 0.5s;
+  	transition: 0.3s;
 }
 
 #nav-bar a:hover
 {
-	background-color: #A31621;
+	background-color: #8AB8FE;
 	color: white;
 }
 
 #home
 {
-	padding-top: 20px;
+    position: relative;
+    top: 5vw;
 }
-
 #home img
 {
-	width: 350px;
-	border-radius: 500px;
+    width: 100vw;
 }
 
-#name
+#text
 {
-	font-size: 40px;
+    position:absolute;
+    font-size: 8vw;
+    top: 5vw;
+    left: 6vw;
+    color: white;
+
 }
 
 #resume
