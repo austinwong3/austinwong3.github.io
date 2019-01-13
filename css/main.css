@@ -163,7 +163,7 @@ h1, h2
 #about img
 {
 	height: 20vw;
-    border-radius: 200px;
+    border-radius: 20vw;
     margin-right: 5vw;
 
 }
@@ -187,13 +187,12 @@ h1, h2
 
 .content_container
 {
-    margin:50px;
+    margin:5vw;
 }
 .img_caption_container
 {
     height:20vw;
     display: flex;
-    margin: 50px;
-    border-radius: 200px;
+    margin: 5vw;
 
 }
