@@ -1,79 +1,27 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-            <title>Austin Wong</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-		    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		    <link rel="stylesheet" type="text/css" href="css/main.css" />
-		    <link rel=icon href="imgs/icon.png">
-    </head>
-    <body> 
-                <!-- NAV BAR -->
-            <div id="nav-bar">
-                <div id=nav-a>
-                    <a href="./index.html"><img src = "imgs/levee.JPG"></a>
-                </div>
-                <div id=nav-b>
-                    <a href="./index.html">Home</a>
-                    <a href="./about.html">About</a>
-                    <a href="./resume.html">Resume</a>
-                    <a href="#connect">Connect</a>
-                </div>
+        <head>
+                <title>Austin Wong</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+                <link rel="stylesheet" type="text/css" href="css/main.css" />
+                <link rel=icon href="imgs/icon.png">
+        </head>
+        
+<body>
+    <!-- NAV BAR -->
+    <div id="nav-bar">
+            <div id=nav-a>
+                <a href="./index.html"><img src = "imgs/levee.JPG"></a>
             </div>
-
-            <!-- HOME PAGE -->
-		    <div id="home" class="opener">
-                    <img src="imgs/mzout.jpg" />
-                    <div id="text">
-
-                    </div>
-                    <script type="text/javascript">
-                        var i=0, text,temp,count;
-                        text = " Hi. I'm Austin.";
-                        count=true;
-
-                        function typing()
-                        {
-                        
-                            if(i<text.length)
-                            {
-                                if(i==0)
-                                {
-                                    temp ="";
-                                }
-                                else
-                                {
-                                    temp = temp.substring(0,temp.length-1);
-                                }
-                                temp += text.charAt(i) +"|";
-                                document.getElementById("text").innerHTML = temp;
-                                i++;
-                                setTimeout(typing,175);
-                            }
-                            else
-                            {
-                                if (count)
-                                {
-                                    temp = temp.substring(0,temp.length-1);
-                                    document.getElementById("text").innerHTML = temp;
-                                    count = false;
-                                    setTimeout(typing,500);
-                                }
-                                else
-                                {
-                                    temp +="|";
-                                    document.getElementById("text").innerHTML = temp;
-                                    count = true;
-                                    setTimeout(typing,500);
-
-                                }
-                            }
-                        }
-                        typing();
-                        
-                    </script>
+            <div id=nav-b>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./resume.html">Resume</a>
+                <a href="#connect">Connect</a>
+            </div>
         </div>
-        <!-- ABOUT ME PAGE -->
+    <!-- ABOUT ME PAGE -->
 		<div id="about" class="section">
                 <h1>About Me</h1>
                 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
@@ -157,26 +105,15 @@
 
                         </div>
                 </div>
-                <div id="res" class="section">
-                    <h1>Resume</h1>
-                    <img src="imgs/resume.png">
-                    <a id="resume" target="_blank" href="files/resume.pdf">View Resume</a>
-                </div>
                 <div id="connect" class="section">
-                    <h1>-Connect-</h1>
-                    <div id="links">
-                    <a target="_blank" href="https://www.linkedin.com/in/austin-wong-41534a145/"><img src="imgs/linkedin.png"></a>
-                    <a target="_blank" href="https://www.facebook.com/austin.wong.712"><img src="imgs/facebook.png"></a>
-                    <a target="_blank" href="mailto: ausitnw3000@gmail.com"><img src="imgs/mail.png"></a>
-                    <a target="_blank" href="https://www.instagram.com/austinwonga/?hl=en"><img src="imgs/gram.png"></a>
+                        <h1>-Connect-</h1>
+                        <div id="links">
+                        <a target="_blank" href="https://www.linkedin.com/in/austin-wong-41534a145/"><img src="imgs/linkedin.png"></a>
+                        <a target="_blank" href="https://www.facebook.com/austin.wong.712"><img src="imgs/facebook.png"></a>
+                        <a target="_blank" href="mailto: ausitnw3000@gmail.com"><img src="imgs/mail.png"></a>
+                        <a target="_blank" href="https://www.instagram.com/austinwonga/?hl=en"><img src="imgs/gram.png"></a>
+                        </div>
                     </div>
-                </div>
+</body>
 
-
-
-
-
-                
-        
-    
 </html>

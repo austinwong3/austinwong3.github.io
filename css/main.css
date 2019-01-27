@@ -205,7 +205,7 @@ h1, h2
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(70px, 150px);
-    margin-bottom: 76px;
+    margin-bottom: 5vw;
   }
 .logos img
 {
@@ -226,8 +226,21 @@ h1, h2
 }*/
 #res img
 {
-    height: 400px;
+    height: 750px;
     border:1px black solid;
+}
+
+#res h1
+{
+    font-size: 46px;
+    height:55.26px;
+    width:203px;
+    border: 3px black solid;
+    text-align: center;
+    margin-top:2vw;
+    margin-bottom: 2vw;
+
+    
 }
 
 #resume
@@ -251,10 +264,16 @@ h1, h2
 	color: #Ffffff;
 	border-color: #A8CCF6;
 }
+
+#res
+{
+    padding-top: 5vw;
+}
 #connect
 {
     background-color: #969696;
     height:200px;
+    
 
 }
 
