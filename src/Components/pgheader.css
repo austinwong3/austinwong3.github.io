@@ -1,0 +1,94 @@
+.headerSection
+{
+    display: flex;
+    color: #7b90b3;
+}
+
+.typical
+{   
+    align-self: center;
+    margin-left: 15%;
+    font-size: 5vw;
+    font-weight: bold;
+    position: absolute;
+}
+
+.topBar
+{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 150px;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.topBar h1{
+    margin-left: 4%;
+}
+
+.contactSectionInHead
+{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width:100%;
+}
+.contactRowInHead
+{
+    display: inline-flex;
+
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 20%;
+    min-width: 300px;
+    height: 60px;
+    padding-right: 30px;
+}
+
+.contactContainerInHead
+{
+    display: inline-flex;
+    
+
+    width:20%;
+
+}
+.contactContainerInHead :hover
+{
+    opacity: 0.7;
+}
+
+.contactContainerInHead a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactLogoInHead
+{
+    display: inline-flex;
+    height: 70%;
+}
+
+.imgContainer
+{
+    display:flex;
+    justify-content: flex-end;
+    max-height: 1000px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.imgContainer img{
+    
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width:100%;
+    min-width: 1000px;
+}

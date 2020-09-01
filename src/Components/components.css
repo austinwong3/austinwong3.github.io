@@ -1,0 +1,183 @@
+.blockTitle
+{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgBlock img
+{
+    height: 70%;
+    width:70%;
+    border-radius: 20%;
+    padding: 10px;
+    
+}
+
+.imgBlock
+{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.overlayContainer{
+    display: inline-block;
+    position: relative;
+}
+
+.pdfImg
+{
+    width:500px;
+}
+
+.overlay a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+
+  .overlayContainer:hover .overlay a{
+      opacity:1;
+      text-decoration: none;
+  }
+
+  .overlayText
+  {
+    color: black;
+  }
+
+
+
+.contactRow
+{
+    display:inline-flex;
+    justify-content: center;
+    width:100%;
+    background-color: #7b90b3;
+}
+
+.contactContainer
+{
+    display: inline-flex;
+    padding: 3%;
+    width: 5%;
+}
+
+.contactLogo
+{
+    display: inline-flex;
+    width:100%;
+}
+
+.contactContainer :hover
+{
+    opacity: 0.7;
+}
+
+
+.itemBlock
+{
+
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.itemBlock h2
+{
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.itemPair
+{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.itemList{
+    display: inline-block;
+    width: 50%;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+
+
+
+.educationSection
+{
+    display: inline-block;
+    background-color: #7b90b3;
+    color: white;
+    width:100%
+
+}
+.workExperienceSection
+{   
+    display: inline-block;
+    width:100%;
+
+}
+
+.leadershipSection
+{
+    display: inline-block;
+    background-color: #7b90b3;
+    color: white;
+    width:100%
+}
+
+.resumeSection
+{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+
+
+@media only screen and (max-width: 1000px) and (orientation: portrait)
+{
+    .itemPair{
+        flex-direction: column;
+    }
+    .itemBlock{
+        width: 60%;
+    }
+    .imgBlock img
+    {
+        height:auto;
+        max-height: 100%;
+        width:100%;
+        
+    }
+}
