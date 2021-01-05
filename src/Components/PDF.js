@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
-import file1 from './images/ResumeSummer2020.pdf';
+import file1 from './images/Resume_Austin_Wong.pdf';
 
 import './Sample.less';
 

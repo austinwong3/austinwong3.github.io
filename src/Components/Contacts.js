@@ -20,13 +20,13 @@ function contactsList(){
             pictureURL: require('./images/linkedin.png')
         },
         {
-            name:"Email",
-            link:"mailto: austinw3000@gmail.com",
+            name:"GitHub",
+            link:"https://github.com/austinwong3",
             pictureURL: require('./images/gitLogo.svg')
         },
         {
-            name:"GitHub",
-            link:"https://github.com/austinwong3",
+            name:"Email",
+            link:"mailto: austinw3000@gmail.com",
             pictureURL: require('./images/mail.png')
         }
     ]

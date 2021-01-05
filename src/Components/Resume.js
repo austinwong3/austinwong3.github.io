@@ -2,7 +2,7 @@ import React, { Component, useState  } from 'react';
 import {Document, Page} from 'react-pdf';
 import PDF from './PDF.js';
 import {PDFtoIMG} from 'react-pdf-to-image';
-import file from './images/WongAustinResume2020.pdf';
+import file from './images/Resume_Austin_Wong.pdf';
 import './components.css';
 
 
